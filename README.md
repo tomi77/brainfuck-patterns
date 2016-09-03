@@ -1,7 +1,7 @@
 # brainfuck-starter
 Brainfuck code examples
 
-# Hello, World!
+## Hello, World!
 
 Print `Hello, World!` to console
 
@@ -21,7 +21,7 @@ Print `Hello, World!` to console
     <<+.              ! (33)
     <++++++++++       LF (10)
 
-# Mul
+## Mul
 
 Calculate `#1 * #2`. Store result in `#1`
 
@@ -31,14 +31,14 @@ Calculate `#1 * #2`. Store result in `#2`
 
     +++ [> ++++ <-]
 
-# Div
+## Div
 
 Calculate `#1 / 3`. Store result in `#2`
 
     ++++++++++++ 12
     [>+ <---]    / 3 = 4 (store in #2)
 
-# Clone
+## Clone
 
 Clone `#1` to `#2`
 
