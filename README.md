@@ -46,3 +46,10 @@ Clone `#1` to `#2`
     [>>+<<-]       Move #1 to #3
     >>[<+ <+ >>-]  Clone #3 to #2 and #1
     <<             #1
+
+## Add
+
+Add `#1` to `#2`. Store result in `#1`
+
+    ++++ > +++
+    [< + > -]
