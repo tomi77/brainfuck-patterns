@@ -36,7 +36,7 @@ Calculate `#1 * #2`. Store result in `#2`
 Calculate `#1 / 3`. Store result in `#2`
 
     ++++++++++++ 12
-    [>+ <---]    / 3 = 4 (store in #2)
+    [--- > + <]  / 3 = 4 (store in #2)
 
 ## Clone
 
