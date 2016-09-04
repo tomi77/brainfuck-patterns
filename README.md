@@ -6,13 +6,15 @@ Brainfuck code examples
 Calculate `#1 * #2`. Store result in `#1`
 
 ~~~brainfuck
->+++ [< ++++ >-]
+> +++        #2 = 3
+[< ++++ > -] Multiplication by 4. Store result in #1
 ~~~
 
 Calculate `#1 * #2`. Store result in `#2`
 
 ~~~brainfuck
-+++ [> ++++ <-]
++++          #1 = 3
+[> ++++ < -] Multiplication by 4. Store result in #2
 ~~~
 
 ## Div
@@ -20,8 +22,8 @@ Calculate `#1 * #2`. Store result in `#2`
 Calculate `#1 / 3`. Store result in `#2`
 
 ~~~brainfuck
-++++++++++++ 12
-[--- > + <]  / 3 = 4 (store in #2)
+++++++++++++ #1 = 12
+[--- > + <]  Divide by 3. Store in #2
 ~~~
 
 ## Clone
@@ -40,15 +42,17 @@ Clone `#1` to `#2`
 Add `#1` to `#2`. Store result in `#1`
 
 ~~~brainfuck
-++++ > +++
-[< + > -]
+++++      #1 = 4
+> +++     #2 = 3
+[< + > -] Addition, store result in #1
 ~~~
 
 Add `#1` to `#2`. Store result in `#2`
 
 ~~~brainfuck
-++++ > +++
-< [> + < -]
+++++        #1 = 4
+> +++       #2 = 3
+< [> + < -] Addition, store result in #2
 ~~~
 
 ## Subtract
@@ -56,8 +60,9 @@ Add `#1` to `#2`. Store result in `#2`
 Subtract `#2` of `#1`
 
 ~~~brainfuck
-++++ > +++
-[< - > -]
+++++      #1 = 4
+> +++     #2 = 3
+[< - > -] Subtraction
 ~~~
 
 ## Print
