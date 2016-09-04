@@ -1,28 +1,6 @@
 # brainfuck-starter
 Brainfuck code examples
 
-## Hello, World!
-
-Print `Hello, World!` to console
-
-~~~brainfuck
-Initialize tab: 40 70 100
-++++++++++ [- > ++++ > +++++++ > ++++++++++ <<<]
->>++.             H (72)
->+.               e (101)
-+++++++..         ll (108)
-+++.              o (111)
-<<++++.           comma (44)
-------------.     space (32)
->+++++++++++++++. W (87)
->.                o (111)
-+++.              r (114)
-------.           l (108)
---------.         d (100)
-<<+.              ! (33)
-<++++++++++       LF (10)
-~~~
-
 ## Mul
 
 Calculate `#1 * #2`. Store result in `#1`
@@ -80,4 +58,34 @@ Subtract `#2` of `#1`
 ~~~brainfuck
 ++++ > +++
 [< - > -]
+~~~
+
+## Print
+
+`Hello, World!` to console
+
+~~~brainfuck
+Initialize tab: 40 70 100
+++++++++++ [- > ++++ > +++++++ > ++++++++++ <<<]
+>>++.             H (72)
+>+.               e (101)
++++++++..         ll (108)
++++.              o (111)
+<<++++.           comma (44)
+------------.     space (32)
+>+++++++++++++++. W (87)
+>.                o (111)
++++.              r (114)
+------.           l (108)
+--------.         d (100)
+<<+.              ! (33)
+<++++++++++       LF (10)
+~~~
+
+Single number
+
+~~~brainfuck
+++                        #1 = 2
+> ++++++ [< ++++++++ > -] Add 48
+< .                       Print #1
 ~~~
