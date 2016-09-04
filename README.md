@@ -65,3 +65,10 @@ Add `#1` to `#2`. Store result in `#1`
 ++++ > +++
 [< + > -]
 ~~~
+
+Add `#1` to `#2`. Store result in `#2`
+
+~~~brainfuck
+++++ > +++
+< [> + < -]
+~~~
