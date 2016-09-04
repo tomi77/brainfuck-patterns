@@ -72,3 +72,12 @@ Add `#1` to `#2`. Store result in `#2`
 ++++ > +++
 < [> + < -]
 ~~~
+
+## Subtract
+
+Subtract `#2` of `#1`
+
+~~~brainfuck
+++++ > +++
+[< - > -]
+~~~
