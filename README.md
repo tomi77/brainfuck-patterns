@@ -53,6 +53,14 @@ Subtract `#2` of `#1` [commented src](src/sub.b)
 ++++>+++[<->-]
 ~~~
 
+## Clean
+
+Clean `#1` [commented src](src/clean.b)
+
+~~~brainfuck
++++[-]
+~~~
+
 ## Print
 
 `Hello, World!` to console [commented src](src/print/hello_world.b)
