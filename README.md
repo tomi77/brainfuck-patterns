@@ -63,12 +63,6 @@ Clean `#1` [commented src](src/clean.b)
 
 ## Print
 
-`Hello, World!` to console [commented src](src/print/hello_world.b)
-
-~~~brainfuck
-++++++++++[->++++>+++++++>++++++++++<<<]>>++.>+.+++++++..+++.<<++++.------------.>+++++++++++++++.>.+++.------.--------.<<+.<++++++++++
-~~~
-
 Single number [commented src](src/print/single_number.b)
 
 ~~~brainfuck
