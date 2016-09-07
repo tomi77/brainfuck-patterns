@@ -1,5 +1,5 @@
-# brainfuck-starter
-Brainfuck code examples
+# brainfuck-patterns
+Brainfuck code patterns
 
 ## Mul
 
